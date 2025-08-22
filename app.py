@@ -6,8 +6,7 @@ import plotly_express as px
 
 st.header('Venta de vehículos', divider = 'blue')
 
-
-car_data = pd.read_csv(r'C:\Users\Carlo\Documents\TripleTen\Jupyter\Directorio Principal\sprint7_app\sprint7_app\vehicles_us.csv') # Lee los datos del csv
+car_data = pd.read_csv(r'vehicles_us.csv') # Lee los datos del csv
 #hist_button = st.button('Crear histograma') # Crea un botón para crear un histograma
 #disp_button = st.button('Crear gráfico de dispersión') # Crear un botón para hacer un gráfico de dispersión
 
